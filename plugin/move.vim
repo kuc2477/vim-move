@@ -151,6 +151,4 @@ vnoremap <silent> <Plug>MoveBlockHalfPageUp     :call <SID>MoveBlockHalfPageUp()
 if g:move_map_keys
     execute 'vmap' s:MoveKey('j') '<Plug>MoveBlockDown'
     execute 'vmap' s:MoveKey('k') '<Plug>MoveBlockUp'
-    execute 'nmap' s:MoveKey('j') '<Plug>MoveLineDown'
-    execute 'nmap' s:MoveKey('k') '<Plug>MoveLineUp'
 endif
