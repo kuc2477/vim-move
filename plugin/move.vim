@@ -147,11 +147,6 @@ vnoremap <silent> <Plug>MoveBlockUp             :call <SID>MoveBlockOneLineUp()<
 vnoremap <silent> <Plug>MoveBlockHalfPageDown   :call <SID>MoveBlockHalfPageDown()<CR>
 vnoremap <silent> <Plug>MoveBlockHalfPageUp     :call <SID>MoveBlockHalfPageUp()<CR>
 
-nnoremap <silent> <Plug>MoveLineDown            :call <SID>MoveLineDown(1)<CR>
-nnoremap <silent> <Plug>MoveLineUp              :call <SID>MoveLineUp(1)<CR>
-nnoremap <silent> <Plug>MoveLineHalfPageDown    :call <SID>MoveLineHalfPageDown()<CR>
-nnoremap <silent> <Plug>MoveLineHalfPageUp      :call <SID>MoveLineHalfPageUp()<CR>
-
 
 if g:move_map_keys
     execute 'vmap' s:MoveKey('j') '<Plug>MoveBlockDown'
